@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/reset.css" />
+    <link rel="stylesheet" href="assets/pigGame.css"/>
+    <script src='assets/pigGame.js'></script>
+    <script src='assets/pigGameControler.js'></script>
+    <title>PIG GAME</title>
+</head>
+<body >
+        <img src="assets/back.jpg" width="100%" height="100%"/>
+    <div id = "container" > 
+      <aside class = "side left"> 
+          <div class="top" ><h1>Player 1 <img class='red-dot' src='assets/red-dot.png' /> </h1><p id='totalScore1'></p></div>
+          <div class = "buttom"><p>CURRENT</p><p id='currentScore1'></p></div>
+      </aside>
+      <main class = "center">
+        <div class="top" ><div class='button-divs' id='new-game'>
+                <label for='newGame'>&oplus;</label>
+                <span id='newGame'>New Game</span>
+            </div> <img  id="diceFirst"  width="100px" height="100px"/>  <img id="diceSecond"  width="100px" height="100px"/>
+          </div>
+          <div id = "center-button"> 
+                <label for='rol'>&#10561;</label>
+                <span id='rol'>Roll Dice</span>
+             <p id = "hold">HOLD</p><button>FinalScore</button></div>
+      </main>
+      <aside class = "side rigth">
+          <div class="top"><h1>Player 2 <img class='red-dot' src='assets/red-dot.png' /> </h1> <p id= 'totalScore2'></p></div>
+          <div class = "buttom">
+              <p >CURRENT</p>
+              <p id='currentScore2'></p>
+            </div>
+      </aside>
+        
+    </div>
+    
+</body> 
+</html>

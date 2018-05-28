@@ -1,0 +1,142 @@
+body {
+    position: relative;
+    box-sizing: border-box;
+}
+
+#container {
+    position: absolute;
+    display: inline-block;
+    box-sizing: border-box;
+    top: 40px;
+    left: 160px;
+    width: 75%;
+    height: 85%;
+    background: white;
+}
+
+.side {
+    box-sizing: border-box;
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.left {
+    background: rgb(252, 252, 250);
+}
+
+.rigth {
+    background: rgb(231, 231, 231);
+}
+.top {
+    width: 200px;
+    box-sizing: border-box;
+    height: 48%;
+    margin: auto;
+    position: relative;
+    top: 20px;
+     
+}
+
+.buttom {
+    width: 100px;
+    box-sizing: border-box;
+    padding: 10px;
+    height: 100px;
+    margin: auto; 
+    position: relative;
+    top: 50px;
+    text-align: center;
+    line-height: em;
+    background: rgb(212, 61, 61);
+}
+
+
+.buttom > p {
+   text-align: center;
+   font-size: 1em;
+   margin : 0.8em 0;
+   color: white
+}
+
+.top > h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100px;
+    
+}
+
+.top > p {
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    text-align: center;
+}
+
+
+ .center {
+    position: absolute;
+    left: 400px;
+    width: 200px;
+    line-height: 30px;
+    text-align: center;
+    
+ }
+
+ #center-button {
+    position: relative;
+    top: 60px;
+    width: 200px;
+    line-height: 50px;
+    text-align: center;
+ }
+ .center img {
+     
+     position: relative;
+     margin-bottom:  10px;
+     left: 0px;
+     top: 50px;
+     visibility: hidden;
+ }
+
+
+ .center p {
+     font-size: 1em;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: normal;
+     cursor: pointer;
+ }
+
+ #hold:hover   {
+    margin-left: 0.4em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#rol:hover   {
+    margin-left: 0.4em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+ #newGame:hover   {
+    margin-left: 0.4em;
+    font-weight: bold;
+    cursor: pointer;
+}
+.red-dot {
+    width: 30px;
+    visibility: hidden; 
+}
+
+#currentScore1 {
+    font-size: 1.5em;
+}
+
+
+
+#currentScore2 {
+    font-size: 1.5em;
+} 
+
